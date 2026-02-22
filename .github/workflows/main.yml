@@ -12,22 +12,3 @@ jobs:
     steps:
       - name: 24f1001025@ds.study.iitm.ac.in
         run: echo "Hello from StaticShop!"
-```
-
----
-
-### Step 4: Commit karo
-
-**"Commit changes"** click karo — yeh commit hote hi action **automatically trigger** ho jayega!
-
----
-
-### Step 5: Verify karo
-
-Repo mein **"Actions"** tab pe click karo — wahan green ✅ dikhna chahiye
-
----
-
-### Answer submit karo:
-```
-https://github.com/prakashpuri/my-portfolio
