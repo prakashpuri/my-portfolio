@@ -21,14 +21,4 @@ jobs:
           key: cache-c1304d4
 
       - name: prime-cache-c1304d4
-        run: |
-          echo "Cache hit: ${{ steps.cache-step.outputs.cache-hit }}"
-```
-
----
-
-**Commit karo → Action automatically trigger hoga!**
-
-Phir Actions tab pe check karo green ✅ aaya ki nahi, aur repo URL submit karo:
-```
-https://github.com/prakashpuri/my-portfolio
+        run: echo "Cache hit - ${{ steps.cache-step.outputs.cache-hit }}"
